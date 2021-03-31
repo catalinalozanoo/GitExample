@@ -11,10 +11,14 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView{
-            NavigationLink(destination: ModalView()){
-                Text("Go Next")
-            }.foregroundColor(.purple)
-            .navigationBarTitle("xcode and git")
+            VStack{
+                NavigationLink(destination: ModalView()){
+                    Text("Go Next")
+                }.foregroundColor(.purple)
+                .navigationBarTitle("xcode and git")
+            }
+            
+            
         }
     
     }
