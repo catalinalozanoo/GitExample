@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public class Hola{
+    func saludo()  {
+        print("esta es una prueba")
+    }
+}
