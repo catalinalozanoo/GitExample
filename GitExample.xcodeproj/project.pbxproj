@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF3F2D0A26140F840070D08A /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F2D0926140F840070D08A /* ModalView.swift */; };
+		CF7F43B42694089F004EA70C /* arch1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F43B32694089F004EA70C /* arch1.swift */; };
 		CFA64EDC2613E87000A68C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA64EDB2613E87000A68C5C /* AppDelegate.swift */; };
 		CFA64EDE2613E87000A68C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA64EDD2613E87000A68C5C /* SceneDelegate.swift */; };
 		CFA64EE02613E87000A68C5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA64EDF2613E87000A68C5C /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		CF3F2D0926140F840070D08A /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		CF7F43B32694089F004EA70C /* arch1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arch1.swift; sourceTree = "<group>"; };
 		CFA64ED82613E87000A68C5C /* GitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA64EDB2613E87000A68C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFA64EDD2613E87000A68C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF7F43B226940878004EA70C /* Remoto */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F43B32694089F004EA70C /* arch1.swift */,
+			);
+			path = Remoto;
+			sourceTree = "<group>";
+		};
 		CFA64ECF2613E87000A68C5C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		CFA64EDA2613E87000A68C5C /* GitExample */ = {
 			isa = PBXGroup;
 			children = (
+				CF7F43B226940878004EA70C /* Remoto */,
 				CFA64EDB2613E87000A68C5C /* AppDelegate.swift */,
 				CFA64EDD2613E87000A68C5C /* SceneDelegate.swift */,
 				CFA64EDF2613E87000A68C5C /* ContentView.swift */,
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA64EDC2613E87000A68C5C /* AppDelegate.swift in Sources */,
+				CF7F43B42694089F004EA70C /* arch1.swift in Sources */,
 				CFA64EDE2613E87000A68C5C /* SceneDelegate.swift in Sources */,
 				CF3F2D0A26140F840070D08A /* ModalView.swift in Sources */,
 				CFA64EE02613E87000A68C5C /* ContentView.swift in Sources */,
